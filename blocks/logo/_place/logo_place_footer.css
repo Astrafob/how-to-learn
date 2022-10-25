@@ -1,0 +1,7 @@
+.logo_place_footer {
+  display: flex;
+  background-image: url(../../../images/logo_place_footer.svg);
+  position: relative;
+  top: 0;
+  left: 0;
+}
