@@ -6,14 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="keywords" content="учиться, метод, изучение">
   <meta name="author" content="Олег Виноградов">
-  <link rel="stylesheet" href="./vendor/normalize.css">
   <link rel="stylesheet" href="./pages/index.css">
   <title>Научиться учиться</title>
 </head>
 
 <body class="page">
   <header class="header">
-    <div class="logo"></div>
+    <div class="logo logo_place_header"></div>
     <h1 class="header__title">Научиться учиться</h1>
     <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей
       жизни? <a href="#" class="header__link">Узнать &rarr;</a></p>
@@ -78,10 +77,8 @@
       <h2 class="section-title">Видео на TED</h2>
       <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
       <div class="video__iframes">
-        <iframe width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" class="video__iframe"
-        style="border:0;" allowfullscreen></iframe>
-        <iframe width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" class="video__iframe"
-        style="border:0;" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/5MgBikgcWnY" class="video__iframe" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/arj7oStGLkU" class="video__iframe" allowfullscreen></iframe>
       </div>
     </section>
     <section class="oakley">
@@ -100,7 +97,6 @@
       <h2 class="feynman__title">Метод Фейнмана</h2>
       <p class="feynman__subtitle">Выучить и не забыть.</p>
       <a href="#" class="feynman__link">Подробнее &rarr;</a>
-      <div class="feynman__image"></div>
     </section>
     <section class="digits">
       <h2 class="section-title">Цифры и факты</h2>
@@ -146,14 +142,14 @@
       <div class="khan__container">
         <p class="khan__author">Салман Хан</p>
         <h2 class="khan__title">Весь мир - школа</h2>
-        <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему
+        <blockquote class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему
           миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут
-          получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
+          получить навыки и знания, которые приносят успех в школе, карьере и жизни.</blockquote>
         <h3 class="khan__quote-author">Джордж Лукас</h3>
         <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
         <div class="khan__book-container">
           <img src="./images/khan-book.jpg" class="khan__book-pic" alt="картинка Книги">
-          <a href="#" class="khan__buy-link">Купить книгу &rarr;</a>
+          <a href="#" class="khan__buy-link" target="_blank">Купить книгу &rarr;</a>
         </div>
       </div>
     </section>
@@ -208,14 +204,24 @@
       <h2 class="section-title">Полезные ресурсы</h2>
       <p class="section-subtitle">Больше материала о техниках и лайфхаках обучения</p>
       <ul class="resources__logo-zone">
-        <li class="resources__logo"><a href="#" class="resources__link" target="_blank"><img
-              src="./images/logo/resources-arzamas.svg" alt="лого Арзамас"></a></li>
-        <li class="resources__logo"><a href="#" class="resources__link" target="_blank"><img
-              src="./images/logo/resources-n1.svg" alt="лого Эн+1"></a></li>
-        <li class="resources__logo"><a href="#" class="resources__link" target="_blank"><img
-              src="./images/logo/resources-strelka.svg" alt="лого Стрелка"></a></li>
-        <li class="resources__logo"><a href="#" class="resources__link" target="_blank"><img
-              src="./images/logo/resources-polka.svg" alt="лого Полка"></a></li>
+        <li class="resources__logo">
+          <a href="#" class="resources__link" target="_blank">
+            <img src="./images/logo/resources-arzamas.svg" width="270px" height="38px" alt="лого Арзамас"></a></li>
+        <li class="resources__logo">
+          <a href="#" class="resources__link" target="_blank">
+            <img src="./images/logo/resources-n1.svg" width="270px" height="38px" alt="лого Эн+1">
+          </a>
+        </li>
+        <li class="resources__logo">
+          <a href="#" class="resources__link" target="_blank">
+            <img src="./images/logo/resources-strelka.svg" width="270px" height="38px" alt="лого Стрелка">
+          </a>
+        </li>
+        <li class="resources__logo">
+          <a href="#" class="resources__link" target="_blank">
+            <img src="./images/logo/resources-polka.svg" width="270px" height="38px" alt="лого Полка">
+          </a>
+        </li>
       </ul>
     </section>
   </main>
